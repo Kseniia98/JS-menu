@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+  color: white;
+  font-weight: bold;
+}
+
+ul{
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+#list{
+  display: flex;
+  position: relative;
+  width: 100%;
+  background-color: rgb(53, 156, 99);
+  text-align: center;
+}
+
+.cat-list,
+.women-list{
+  display: none;
+}
+
+.list-cat{
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  right: 0px;
+  background-color: rgb(29, 88, 56);
+  text-align: center;
+}
+
+.list-women{
+  display: block;
+  position: absolute;
+  width: 130px;
+  left: 100%;
+  top: 0px;
+  background-color: rgb(17, 54, 34);
+  text-align: center;
+}
+
+.list-cat>li,
+.list-women>li,
+#list>li{
+  width: 100%;
+  padding: 15px;
+}
+
+#categories,
+#women{
+  position: relative;
+}
+
